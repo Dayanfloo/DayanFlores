@@ -1,169 +1,116 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portafolio | Dayan Flores</title>
-  <link rel="stylesheet" href="style.css">
-</head>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi Portafolio</title>
+    <link rel="shortcut icon" href="img/logo-favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
 
-<body>
-
-  <header>
-    <nav>
-      <h1>Dayan Flores</h1>
-      <ul>
-        <li><a href="#inicio">Inicio</a></li>
-        <li><a href="#sobre-mi">Sobre mí</a></li>
-        <li><a href="#habilidades">Habilidades</a></li>
-        <li><a href="#proyectos">Proyectos</a></li>
-        <li><a href="#contacto">Contacto</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <main>
-
-    <section id="inicio">
-      <header>
-        <h2>Hola, soy Dayan Flores</h2>
-        <p>Diseñador Gráfico & Desarrollador</p>
-      </header>
-
-      <figure>
-        <img src="img/perfil.png" >
-      </figure>
-
-      <article>
-        <p>
-          Soy estudiante de diseño gráfico con habilidades en desarrollo web.
-          Me apasiona crear experiencias visuales atractivas combinando creatividad
-          y tecnología.
-        </p>
-      </article>
-
-      <a href="#contacto">Contáctame</a>
-    </section>
-
-    <section id="sobre-mi">
-      <header>
-        <h2>Sobre mí</h2>
-      </header>
-
-      <article>
-        <p>
-          Me llamo Dayan Flores. Inicié en el diseño gráfico hace más de 2 años,
-          motivado por el interés en el desarrollo de interfaces.
-        </p>
-        <p>
-          Manejo herramientas como Photoshop, Illustrator e InDesign, y continúo
-          aprendiendo nuevas tecnologías para mejorar como profesional.
-        </p>
-      </article>
-
-      <aside>
+  <body>
+    <header>
+      <img src="img/logo.png" alt="" class="img-logo" />
+      <nav class="menu">
         <ul>
-          <li>4° semestre</li>
-          <li>+30 piezas gráficas</li>
-          <li>Experiencia con múltiples softwares de diseño</li>
+          <li><a href="">Inicio</a></li>
+          <li><a href="">Sobre Mi</a></li>
+          <li><a href="">Portafolio</a></li>
+          <li><a href="">Contacto</a></li>
         </ul>
-      </aside>
+      </nav>
+    </header>
 
-      <a href="pdf/DayanFloresCV.pdf" download>Descargar CV</a>
+
+    <main>
+      <div class="content-one">
+        <div class="content-portada">
+          <div class="content-item1">
+            <h1>¡Hola!</h1>
+            <h1>Soy Dayan Flores</h1>
+            <h2>Diseñador Gráfico en Proceso</h2>
+          </div>
+        </div>
+      </div>
+    </main>
+    <section>
+      <div class="content-two">
+        <div class="content-details">
+          <div class="about">
+            <h1>Sobre <span>Mi.</span></h1>
+            <h2>Mi nombre es Dayan Flores</h2>
+            <p>Diseñador gráfico y desarrolladore, especializado en interfaces modernas, soluciones digitales eficientes y experiencias visuales atractivas, orientadas al usuario, innovación constante, aprendizaje continuo, trabajo colaborativo, <span>pasión por el diseño, desarrollo ágil y resultados efectivos.</span></p>
+          </div>
+        </div>
+      </div>
+
+                                                
+      <div class="proces-area">
+        <div class="proces">
+          <img src="img/ico_diseno.png" alt="">
+          <h3>Diseñador Gráfico</h3>
+        </div>
+        <div class="proces">
+          <img src="img/ico_branding.png" alt="">
+          <h3>Branding</h3>
+        </div>
+        <div class="proces">
+          <img src="img/ico_desarrollo.png" alt="">
+          <h3>Programador Web</h3>
+        </div>
+
+      </div>
+      <div class="content-details">
+        <div class="content-item2">
+          <a href="">Descargar CV</a>
+        </div>
+              <br>
+            <br>
+                  <br>
+                      
+      </div>
+      <div class="content-three">
+        <div class="content-module">
+          <h1>PORTALOFIO <span>.</span></h1>
+          <img src="img/porta01.png" alt="">
+          <img src="img/porta02.png" alt="">
+          <img src="img/porta03.png" alt="">
+          <img src="img/porta04.png" alt="">
+        </div> 
+      </div>
+
+      <div class="content-four">
+        <h1>Contacto <span>.</span></h1>
+        <div class="contact-form">
+          <form action="">
+            <div class="form-group"> 
+              <label for="name">Nombre: </label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group"> 
+              <label for="email">Correo Electronio: </label>
+              <input type="text" id="email" name="email" required>
+            </div>
+            <div class="form-group"> 
+              <label for="Phone">Telefono: </label>
+              <input type="number" id="Phone" name="Phone" required pattern="[0-9]">
+            </div>
+             <div class="form-group"> 
+              <label for="subject">Asunto: </label>
+              <input type="text" id="subject" name="subject">
+            </div>
+             <div class="form-group"> 
+              <label for="message">Mensaje: </label>
+              <textarea name="message" id="message"></textarea>
+            </div>
+             <div class="form-group center-btn"> 
+              <button type="submit" class="btn-four">ENVIAR</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
     </section>
-
-    <section id="habilidades">
-      <header>
-        <h2>Habilidades</h2>
-      </header>
-
-      <section>
-        <h3>Desarrollo Web</h3>
-        <ul>
-          <li>HTML - Intermedio</li>
-          <li>JavaScript - Intermedio</li>
-          <li>Python - Intermedio+</li>
-          <li>C# - Intermedio</li>
-          <li>Java - Básico</li>
-        </ul>
-      </section>
-
-      <section>
-        <h3>Diseño Gráfico</h3>
-        <ul>
-          <li>Photoshop - Intermedio</li>
-          <li>Illustrator - Intermedio+</li>
-          <li>InDesign - Intermedio</li>
-          <li>Figma - Intermedio</li>
-          <li>CorelDRAW - Intermedio</li>
-        </ul>
-      </section>
-    </section>
-
-    <section id="proyectos">
-      <header>
-        <h2>Proyectos</h2>
-      </header>
-
-      <article>
-        <h3>Horacia, la gatita aventurera</h3>
-        <p>Ilustración editorial para cuento infantil.</p>
-      </article>
-
-      <article>
-        <h3>Recetario Creativo</h3>
-        <p>Diseño editorial de portada y contenido.</p>
-      </article>
-
-      <article>
-        <h3>Campaña Desayunos</h3>
-        <p>Diseño publicitario para promoción gastronómica.</p>
-      </article>
-
-      <article>
-        <h3>Taller de Arte</h3>
-        <p>Diseño de volante publicitario.</p>
-      </article>
-
-      <article>
-        <h3>XYZFROG</h3>
-        <p>Diseño de personaje y concepto visual.</p>
-      </article>
-    </section>
-
-    <section id="contacto">
-      <header>
-        <h2>Contacto</h2>
-      </header>
-
-      <address>
-        <p>Correo: <a href="mailto:dayanfloresflorez@gmail.com">dayanfloresflorez@gmail.com</a></p>
-        <p>Ubicación: Arequipa, Perú</p>
-      </address>
-
-      <form action="" method="post">
-        <fieldset>
-          <legend>Envíame un mensaje</legend>
-
-          <label for="nombre">Nombre:</label><br>
-          <input type="text" id="nombre" name="nombre"><br><br>
-
-          <label for="correo">Correo:</label><br>
-          <input type="email" id="correo" name="correo"><br><br>
-
-          <label for="mensaje">Mensaje:</label><br>
-          <textarea id="mensaje" name="mensaje" rows="5"></textarea><br><br>
-
-          <button type="submit">Enviar</button>
-        </fieldset>
-      </form>
-    </section>
-
-  </main>
-
-  <footer>
-    <p></p>
-  </footer>
-
-</body>
+  </body>
 </html>

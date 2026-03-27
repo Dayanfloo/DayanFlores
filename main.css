@@ -121,3 +121,67 @@ section {
     padding: 70px;
     background-color: #666666;
 }
+
+.content-module h1{
+    color: #ffffff;
+    font: 70px ;
+    font-weight: 700 ;
+    padding-bottom: 50px;
+
+}
+
+.content-module h1 span {
+    color: aqua;
+}
+
+.content-module { 
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.content-module img {
+    padding: 15px;
+}
+.content-module img:hover {
+    cursor: pointer;
+    opacity: 0.5;
+    width: 70%;
+}
+
+.content-four {
+    width: 80%;
+    max-width: 700;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    margin: auto;
+}
+
+.content-four h1 {
+    font-size: 70px;
+    font-weight: 700;
+    padding-bottom: 20px;
+
+}
+
+.content-four h1 span {
+    color: aqua;
+}
+
+.contact-form {
+    text-align: left;
+}
+
+.form-group {
+    margin-bottom: 25px;
+}
+
+.contact-form label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: var(--especial);
+}
